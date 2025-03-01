@@ -1,0 +1,14 @@
+.container {
+  position: relative;
+  width: 300px; // 父容器宽度
+  height: 300px; // 父容器高度
+  border: 2px solid #ccc; // 边框（可选）
+  border-radius: 50%; // 圆形边框
+}
+
+.item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: 0 0; // 旋转中心点
+}

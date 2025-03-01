@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.node {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; // 圆形节点
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; // 圆形图片
+}
+
+.time {
+  margin-top: 4px;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.line {
+  width: 4px;
+  height: 40px;
+  background-color: #007bff; // 线条颜色
+  position: relative;
+  transform-origin: top; // 从顶部开始缩放
+}
