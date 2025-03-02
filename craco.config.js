@@ -13,7 +13,7 @@ module.exports = {
       '@routes': path.resolve(__dirname, 'src/routes'), // 将 @routes 指向 src/routes 目录
       '@services': path.resolve(__dirname, 'src/services'), // 将 @services 指向 src/services 目录
       '@types': path.resolve(__dirname, 'src/types'), // 将 @types 指向 src/types 目录
-
+      '@contexts': path.resolve(__dirname, 'src/contexts'), // 将 @contexts 指向 src/contexts 目录
     },
   },
 };
